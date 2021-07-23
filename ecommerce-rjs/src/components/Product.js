@@ -59,6 +59,7 @@ export default function Product() {
             {50}
           </Typography>
         }
+        
         title="Shrimp and Chorizo Paella"
         subheader="September 14, 2016"
       />
