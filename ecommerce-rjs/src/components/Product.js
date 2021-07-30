@@ -20,6 +20,9 @@ const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
   },
+  action: {
+    marginTop: "1rem",
+  },
   media: {
     height: 0,
     paddingTop: '56.25%', // 16:9
@@ -61,7 +64,7 @@ export default function Product() {
         }
         
         title="Shoes"
-        subheader="Julio 30, 2021"
+        subheader="En Stock"
       />
       <CardMedia
         className={classes.media}
