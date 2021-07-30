@@ -9,12 +9,9 @@ import CardActions from '@material-ui/core/CardActions';
 import Collapse from '@material-ui/core/Collapse';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
-import { red } from '@material-ui/core/colors';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { AddShoppingCart } from '@material-ui/icons';
-import MoreVertIcon from '@material-ui/icons/MoreVert';
+import accounting from "accounting";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -56,7 +53,7 @@ export default function Product() {
             variant='h5'
             color='textSecondary'
           >
-            {50}
+            {accounting.formatMoney(50)}
           </Typography>
         }
         
