@@ -13,6 +13,7 @@ import { red } from '@material-ui/core/colors';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import { AddShoppingCart } from '@material-ui/icons';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 const useStyles = makeStyles((theme) => ({
@@ -59,26 +60,30 @@ export default function Product() {
           </Typography>
         }
         
-        title="Shrimp and Chorizo Paella"
-        subheader="September 14, 2016"
+        title="Shoes"
+        subheader="Julio 30, 2021"
       />
       <CardMedia
         className={classes.media}
-        image="/static/images/cards/paella.jpg"
-        title="Paella dish"
+        image="https://woker.vteximg.com.br/arquivos/ids/178124-600-600/157197C-1.jpg?v=637388078563630000"
+        title="Converse All Start | Chuck Taylor"
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-          This impressive paella is a perfect party dish and a fun meal to cook together with your
-          guests. Add 1 cup of frozen peas along with the mussels, if you like.
+          Shoes
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
+        <IconButton aria-label="add to Cart" >
+          <AddShoppingCart fontSize='large' />
         </IconButton>
-        <IconButton aria-label="share">
-          <ShareIcon />
+        <IconButton>
+          {Array(4)
+            .fill()
+            .map((_, i) => (
+              <p>&#11088;</p>
+            ))
+          }
         </IconButton>
         <IconButton
           className={clsx(classes.expand, {
