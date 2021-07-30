@@ -98,7 +98,7 @@ export default function Product() {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography paragraph>{description}</Typography>
+          <Typography paragraph>"Zapatillas Converse All Start - Modelo Chuck Taylor"</Typography>
         </CardContent>
       </Collapse>
     </Card>
