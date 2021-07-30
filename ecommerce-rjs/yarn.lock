@@ -2282,6 +2282,11 @@
     "mime-types" "~2.1.24"
     "negotiator" "0.6.2"
 
+"accounting@^0.4.1":
+  "integrity" "sha1-h91BA+/39EYPHhhvXGd+1s9WaIM="
+  "resolved" "https://registry.npmjs.org/accounting/-/accounting-0.4.1.tgz"
+  "version" "0.4.1"
+
 "acorn-globals@^6.0.0":
   "integrity" "sha512-ZQl7LOWaF5ePqqcX4hLuv/bLXYQNfNWw2c0/yX/TsPRKamzHcTGQnlCjHT3TsmkOUVEPS3crCxiPfdzE/Trlhg=="
   "resolved" "https://registry.npmjs.org/acorn-globals/-/acorn-globals-6.0.0.tgz"
@@ -6704,6 +6709,7 @@
     "jest-snapshot" "^26.6.2"
 
 "jest-resolve@*":
+  "integrity" "sha512-tRAz2bwraHufNp+CCmAD8ciyCpXCs1NQxB5EJAmtCFy6BN81loFEGWKzYu26Y62lAJJe4X4jg36Kf+NsQyiStQ=="
   "version" "26.6.0"
   dependencies:
     "@jest/types" "^26.6.0"
